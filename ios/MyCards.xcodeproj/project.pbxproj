@@ -12,10 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2963B0A7C06C41FD9919E726 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02D52CA3E8634F2F87CF5DC1 /* AvenirNextLTPro-Bold.otf */; };
-		4B9C6B9FC6A79768D9BF41A2 /* libPods-MyCards-MyCardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF01DDC458673298DD341F27 /* libPods-MyCards-MyCardsTests.a */; };
-		5B97248277D610A1627BB413 /* libPods-MyCards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B45F19689E187FEECB39E5D /* libPods-MyCards.a */; };
 		7FC59EA1723343A49A88EE54 /* AvenirNextLTPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3A2F6ABE55548689EA57839 /* AvenirNextLTPro-It.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BA54480258952BD013A1599E /* libPods-MyCards-MyCardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10106FD4DCE25ED806C56A85 /* libPods-MyCards-MyCardsTests.a */; };
+		DA60BC20C05E02BBFA945546 /* libPods-MyCards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAD36C53DF711E1D3E559CC /* libPods-MyCards.a */; };
 		FA6EF750C7C14E089E7CD374 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 680DAE00D807455396791DBE /* AvenirNextLTPro-Regular.otf */; };
 /* End PBXBuildFile section */
 
@@ -34,35 +34,36 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCardsTests.m; sourceTree = "<group>"; };
 		01417D5FA7E94A4ABFD6A930 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		01D8125FA0D7574BC811D436 /* Pods-MyCards-MyCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards-MyCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		02D52CA3E8634F2F87CF5DC1 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Bold.otf"; path = "../assets/fonts/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
 		06168A8A10444B4880DC2576 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		10106FD4DCE25ED806C56A85 /* libPods-MyCards-MyCardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCards-MyCardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyCards/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyCards/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyCards/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyCards/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyCards/main.m; sourceTree = "<group>"; };
+		175F2962CD51A73BBF07A304 /* Pods-MyCards-MyCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards-MyCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B623428F3994152ABFEBC68 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		3278DCA0025B4B30A1CDA929 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		3530A24A2D47480B94AB9250 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		3576E6685EC54227A8531A23 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		385178ABF14F45C1B8703501 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		3E25A5E250014FCBB62B0173 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		3EAD36C53DF711E1D3E559CC /* libPods-MyCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC7840BE903AE262D64F547 /* Pods-MyCards-MyCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards-MyCardsTests.release.xcconfig"; path = "Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE64C7A694546298184BC05 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		680DAE00D807455396791DBE /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-Regular.otf"; path = "../assets/fonts/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		6FFEC6AB27CCFFB30040B2A0 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
 		71D7E414B86A47ED87284B68 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		7B78BD19D54D4DC783A5DA3A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyCards/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88F01DC4C86FB2AE3FB9C819 /* Pods-MyCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards.debug.xcconfig"; path = "Target Support Files/Pods-MyCards/Pods-MyCards.debug.xcconfig"; sourceTree = "<group>"; };
-		8B45F19689E187FEECB39E5D /* libPods-MyCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9424D67328F90711FCBB1457 /* Pods-MyCards-MyCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards-MyCardsTests.release.xcconfig"; path = "Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C240CEBF8C3143B3CF797AD /* Pods-MyCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards.release.xcconfig"; path = "Target Support Files/Pods-MyCards/Pods-MyCards.release.xcconfig"; sourceTree = "<group>"; };
+		8B897AD9D1E72F6753602863 /* Pods-MyCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards.release.xcconfig"; path = "Target Support Files/Pods-MyCards/Pods-MyCards.release.xcconfig"; sourceTree = "<group>"; };
 		AB418D62CCB441D5854586D2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		BE3E27A5B99647D88908C42F /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		C3A2F6ABE55548689EA57839 /* AvenirNextLTPro-It.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNextLTPro-It.otf"; path = "../assets/fonts/AvenirNextLTPro-It.otf"; sourceTree = "<group>"; };
 		CDEBDA97697B44409186E37A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		DF01DDC458673298DD341F27 /* libPods-MyCards-MyCardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCards-MyCardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECB10E5DC205FB1D53D5881 /* Pods-MyCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCards.debug.xcconfig"; path = "Target Support Files/Pods-MyCards/Pods-MyCards.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EFCE237EB98348BCBADCA644 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		FCAC2C499AA24BAF9BF84487 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
@@ -73,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9C6B9FC6A79768D9BF41A2 /* libPods-MyCards-MyCardsTests.a in Frameworks */,
+				BA54480258952BD013A1599E /* libPods-MyCards-MyCardsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B97248277D610A1627BB413 /* libPods-MyCards.a in Frameworks */,
+				DA60BC20C05E02BBFA945546 /* libPods-MyCards.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,9 +122,10 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FFEC6AB27CCFFB30040B2A0 /* OpenSSL.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8B45F19689E187FEECB39E5D /* libPods-MyCards.a */,
-				DF01DDC458673298DD341F27 /* libPods-MyCards-MyCardsTests.a */,
+				3EAD36C53DF711E1D3E559CC /* libPods-MyCards.a */,
+				10106FD4DCE25ED806C56A85 /* libPods-MyCards-MyCardsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,10 +133,10 @@
 		7D3C20D473F7652AED2DC6CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88F01DC4C86FB2AE3FB9C819 /* Pods-MyCards.debug.xcconfig */,
-				9C240CEBF8C3143B3CF797AD /* Pods-MyCards.release.xcconfig */,
-				01D8125FA0D7574BC811D436 /* Pods-MyCards-MyCardsTests.debug.xcconfig */,
-				9424D67328F90711FCBB1457 /* Pods-MyCards-MyCardsTests.release.xcconfig */,
+				DECB10E5DC205FB1D53D5881 /* Pods-MyCards.debug.xcconfig */,
+				8B897AD9D1E72F6753602863 /* Pods-MyCards.release.xcconfig */,
+				175F2962CD51A73BBF07A304 /* Pods-MyCards-MyCardsTests.debug.xcconfig */,
+				5EC7840BE903AE262D64F547 /* Pods-MyCards-MyCardsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyCardsTests" */;
 			buildPhases = (
-				260D8880E1B14ECE49836586 /* [CP] Check Pods Manifest.lock */,
+				AB02D65E790B611D8FC03663 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				0EDA3CEC7096AF5E5C69A04F /* [CP] Embed Pods Frameworks */,
-				B1DEE3C05EC2167AFBD342BF /* [CP] Copy Pods Resources */,
+				F2EE6DDB99E0E9DCE07DA5D3 /* [CP] Embed Pods Frameworks */,
+				53C3208E65CD17AB0CF928FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,14 +227,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyCards" */;
 			buildPhases = (
-				0C7A707A019FF24BB77980F4 /* [CP] Check Pods Manifest.lock */,
+				E481DCC968A4C42D4C4EA530 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8ADF04B1600FA641927DB3F2 /* [CP] Embed Pods Frameworks */,
-				181EAF25BBFB28F1E842E6F2 /* [CP] Copy Pods Resources */,
+				BEAA1AE287913F1690A8FEF5 /* [CP] Embed Pods Frameworks */,
+				3D7B377F53A6ABDCC2888234 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +306,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -312,50 +314,11 @@
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0C7A707A019FF24BB77980F4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyCards-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0EDA3CEC7096AF5E5C69A04F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		181EAF25BBFB28F1E842E6F2 /* [CP] Copy Pods Resources */ = {
+		3D7B377F53A6ABDCC2888234 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +335,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards/Pods-MyCards-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		260D8880E1B14ECE49836586 /* [CP] Check Pods Manifest.lock */ = {
+		53C3208E65CD17AB0CF928FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB02D65E790B611D8FC03663 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,7 +374,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8ADF04B1600FA641927DB3F2 /* [CP] Embed Pods Frameworks */ = {
+		BEAA1AE287913F1690A8FEF5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,21 +391,43 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards/Pods-MyCards-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1DEE3C05EC2167AFBD342BF /* [CP] Copy Pods Resources */ = {
+		E481DCC968A4C42D4C4EA530 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCards-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EE6DDB99E0E9DCE07DA5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCards-MyCardsTests/Pods-MyCards-MyCardsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -480,7 +482,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01D8125FA0D7574BC811D436 /* Pods-MyCards-MyCardsTests.debug.xcconfig */;
+			baseConfigurationReference = 175F2962CD51A73BBF07A304 /* Pods-MyCards-MyCardsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -507,7 +509,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9424D67328F90711FCBB1457 /* Pods-MyCards-MyCardsTests.release.xcconfig */;
+			baseConfigurationReference = 5EC7840BE903AE262D64F547 /* Pods-MyCards-MyCardsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -531,7 +533,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F01DC4C86FB2AE3FB9C819 /* Pods-MyCards.debug.xcconfig */;
+			baseConfigurationReference = DECB10E5DC205FB1D53D5881 /* Pods-MyCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -558,7 +560,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C240CEBF8C3143B3CF797AD /* Pods-MyCards.release.xcconfig */;
+			baseConfigurationReference = 8B897AD9D1E72F6753602863 /* Pods-MyCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -10,7 +10,7 @@ import React from 'react';
 import MainStackNavigator from './src/navigation';
 import {
   StatusBar,
-  StyleSheet,
+  StyleSheet,View, Platform
 } from 'react-native';
 import { colors } from './src/Constants/theme';
 import store from './src/store';
@@ -18,8 +18,9 @@ import { Provider } from 'react-redux';
 const App = () => {
   
   return (
-    <Provider store={store}>
+    <Provider store={store} >
       <StatusBar barStyle='light-content' backgroundColor={colors.primaryColor} />
+      {Platform.OS =="ios" && <View style={{height:20,backgroundColor:colors.primaryColor}} ></View>}
       <MainStackNavigator /></Provider>
   );
 };
