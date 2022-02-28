@@ -13,6 +13,7 @@ Libraries used
 Todo
 * Code Formating
 * Add unit tests
+* Update Server Data 
 * Add lang translation using i18
 
 Android Screenshots
