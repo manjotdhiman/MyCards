@@ -11,6 +11,7 @@ Libraries used
 * react native v 0.67.3
 
 Todo
+* Code Formating
 * Add unit tests
 * Add lang translation using i18
 
