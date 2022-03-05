@@ -1,4 +1,4 @@
-# MyCards RN
+# MyCards React native Debit/Credit card UI Component
 Features
 
 * View Cards
